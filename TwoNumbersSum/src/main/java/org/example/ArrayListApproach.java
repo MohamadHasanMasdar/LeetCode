@@ -5,6 +5,8 @@ import java.util.List;
 
 public class ArrayListApproach {
 
+    // we want to find two numbers that sum of them is equal to target. so we have x+y=target -> y=target-x
+    // y is number in the extraList. x is number in numbersArray
     public void resolveWithExtraArrayList(int[] numbersArray, int target) {
 
         System.out.println("selected approach is ArrayListApproach");
